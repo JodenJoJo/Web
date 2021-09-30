@@ -1,6 +1,5 @@
 /*
-Red Lantern redesign
-HFWD Chapter 1
+BLACK&WHITE
 */
 
 /*
@@ -12,10 +11,26 @@ body {
 	margin: 0 auto;
 	width: 800px;
 	padding: 0;
-	background: #6e0427 url('../images/body_bg.gif') repeat-x top;
-	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
-	color: #333;
+	font-family: sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+
+#black {
+	color: black;
+	font-size: 1.5em;
+}
+
+#white {
+	color: rgb(255, 253, 253);
+	font-size: 1.5em;
+}
+
+#menu {
+	font-size: 1.4em;
+	text-align: center;
+	background-color: black;
 }
 
 h1, h2, p, ul, li {
@@ -28,18 +43,6 @@ p {
 	line-height: 1.4em;
 }
 
-ul {
-	list-style-type: none;
-}
-
-a:link {
-	color: #333;
-	background: #eee;
-}
-a:visited {
-	color: #ff0000;
-	background: #eee;
-}
 
 /* This rule adds a nice style to our ampersands */
 span.amp {
@@ -66,6 +69,14 @@ span.amp {
 	font-size: 1.4em;
 }
 
+#fonthref{
+	color: black;
+	float: right;
+}
+
+#fonthref2{
+	color: rgb(255, 255, 255);
+}
  
 #nav li {
 	display: inline;
@@ -93,20 +104,19 @@ the layout
 }
 
 #header img {
-	border: 10px solid #ccc;
+	border: 10px solid rgb(255, 255, 255);
 }
 
 #header h1 {
 	font-size: 2em;
 	margin: 10px 0 0 0;
 	padding: 10px;
-	text-align: center;
 	background: url('../images/tagline_bg.gif') repeat-x;
 }
 
-#content, #sidebar {
-	width: 360px;
-	margin: 20px 0 20px 0;
+#content {
+	width: 550px;
+	margin: 0 0 0 0;
 	padding: 10px;
 }
 
@@ -116,11 +126,11 @@ the layout
 
 #content h2 {
 	font-size: 2.4em;
-	margin: 0 0 10px 0;
+	margin: 0 0 0 0;
 }
 
 #content p {
-	margin: 0 0 10px 0;
+	margin: 0 0 0 0;
 }
 
 #link-list {
@@ -134,27 +144,14 @@ the layout
 
 #sidebar {
 	float: left;
-	background: #eee;
 }
 
-#sidebar h2 {
-	font-weight: bold;
-	border-bottom: 1px solid #ccc;
-	margin: 0 0 20px 0;
-	padding: 5px;
-}
-
-#port li {
-	margin: 0 10px 20px 0;
-	float: left;
-	border: 5px solid #ddd;
-}
 
 #footer {
 	clear: both;
-	background: #eee;
+	background: #000;
 	padding: 10px;
 	border-top: 2px solid #ddd;
 	text-align: center;
-	color: #777;
+	color: rgb(255, 255, 255);
 }
